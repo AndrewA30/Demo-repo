@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <h1>Hello world</h1>
+        <h2>Cat Photo app</h2>
+        <h3>Cat Photos</h3>
+        <p>Click here to view more <a href="https://google.com" target="_blank">cat photo</a></p>
+        <img src="https://cdn.pixabay.com/photo/2022/12/20/07/37/cat-7667234_1280.jpg" alt="a cute cat">
+        <h3>Cat Lists</h3>
+        <!-- unordered list -->
+        <div class="lists">
+            <p>Things Cat <em>Love:</em> </p>
+            <ul>
+                <li>Cat nip</li>
+                <li>Laser Pointer</li>
+                <li>lasagna</li>
+            </ul>
+            <!-- ordered list -->
+            <p>Things Cat <strong>hate:</strong></p>
+            <ol>
+                <li>you</li>
+                <li>only you</li>
+                <li>nothing more</li>
+            </ol>
+        </div>
+        <form action="/submit-cat-photo">
+            <label for="indoor"><input type="radio" name="radio1" id="indoor"> Indoor</label><br>
+            <label for="outdoor"><input type="radio" name="radio1" id="outdoor"> Outdoor</label><br>
+
+            <label for="loving"><input type="checkbox" id="loving" name="personality">Loving</label><br>
+            <label for="loving"><input type="checkbox" id="lazy" name="personality" checked>Lazy</label><br>
+            <label for="loving"><input type="checkbox" id="energy" name="personality">Energy</label><br>
+            
+            <input type="text" placeholder="Cat photo url" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>No Copyright - Andrew Avellino</p>
+    </footer>
+</body>
+</html>
